@@ -14,7 +14,7 @@ const refs = {
 refs.startBtn.disabled = true;
 let selectedDateTime = null;
 
-dateTimePicker = flatpickr('#datetime-picker', {
+const dateTimePicker = flatpickr('#datetime-picker', {
   enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
